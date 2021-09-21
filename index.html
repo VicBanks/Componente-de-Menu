@@ -4,38 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | Order summary card</title>
   <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
   <div>
     <img src="img/fundo.png">
   </div>
-  <h1>
-    <form method="post"></form>
-    <fieldset>
-      <img src="img/songboy.png">
-      <h1>
-        <p>Order Summary</p>
-      </h1>
-      <h2>
-        <p>You can now listen to millions of songs</p>
-        <p> audiobooks, and podcasts on any </p>
-        <p>anywhere you like!</p>
-        <input type="radio" name="radioset" id="id" value="dados"> Change for Annual Plan only $59.99/year
-        <p><input type="submit" class="Payment" value="Proceed to Payment" /></p>
-
-        <p>Cancel Order</p>
-    </fieldset>
+  <section class="songboy_header">
+    <img src="img/songboy.png">
+  </section>
+  <fieldset class="text">
+    <h1>
+      <p>Order Summary</p>
+    </h1>
+    <h2>
+      <p>You can now listen to millions of songs</p>
+      <p> audiobooks, and podcasts on any </p>
+      <p>anywhere you like!</p>
     </h2>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Vic Banks</a>.
+    <div class="change_button">
+      <input type="radio" name="radioset" id="id" value="dados"> Change for Annual Plan only $59.99/year
     </div>
-  </h1>
-</head>
+    <div class="payment_button">
+      <p><input type="submit" class="Payment" value="Proceed to Payment" /></p>
+    </div>
+    <p>Cancel Order</p>
 
+  </fieldset>
+</body>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="#">Your Vic Banks</a>.
+</div>
 </html>
