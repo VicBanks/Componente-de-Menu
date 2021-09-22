@@ -1,5 +1,50 @@
-h1 {
-    font-size: larger;
+h1 {@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+        font-family: 'Red Hat Display';
+}
+
+body{
+    background-image:url('images/pattern-background-mobile.svg'); 
+    background-color: hsl(225, 100%, 94%);
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+section img{
+    border-image: 615px;
+    border-radius: 20px 20px 20px 20px; 
+   }
+
+fieldset{
+    background-color:#fff;
+    border-radius: 20px;
+    width:350px;
+    height: 600px;
+    margin: 70px 18px;
+    display: flex;
+    flex-direction: column;  
+    border-color:#ffffff;
+    box-shadow: 10px 10px 10px 5px rgba(202, 202, 202, 0.912);
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    color: #1f2f56;
+    font-weight: 800;
+    line-height:1cm;
+}
+
+h2{
+    margin: 25px;
+    text-align: center;
+    line-height:25px;
+    font-size: 16px;
+    color: #7280a7;
+    font-weight: 100;
+}
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-style:bold;
