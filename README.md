@@ -1,6 +1,8 @@
 # Frontend Mentor - Order summary card
 Design Challenge - https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 
+Solution: https://Componente-de-Menu.vicbanks.repl.co
+
 
 **Para fazer esse dsafio, foi necessário conhecimento básico em HTML e CSS**
 
