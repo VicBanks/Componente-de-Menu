@@ -45,4 +45,48 @@ h2{
     color: #7280a7;
     font-weight: 100;
 }
+.payment_btn{
+    background-color: hsl(245, 75%, 52%);
+    padding :14px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.payment_btn:hover{
+    background-color:  hsl(224, 23%, 55%);
+}
+.cancel_btn {
+    margin-top: 25px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-align: center;
+}
+
+.cancel_btn:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+.footer{
+    font-size: 11px; text-align: center; 
+    float: right;
+    color: hsl(228, 45%, 44%);
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:375px) {
+    body{
+        background: url("images/pattern-background-mobile.svg") no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .container{
+        width: 70%;
+    }
+    .attribution{
+        margin-top: 45px;
+        font-size: 13px;
+    }
+}       
+
    
